@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Student's Data</title>
+    <script type = "text/javascript" src = "d3.js">
+      </script>
+  </head>
 
+  <body>
+
+    <script type="text/javascript" src="data.js">
+    </script>
+    <style>
+      body{
+        margin-top:50px;
+        background:#EBF5EE;
+      }
+      svg{
+        margin-left:100px;
+        margin-bottom:50px;
+      }
+      div{
+        margin-left:50px;
+        margin-top:50px;
+        float:left;
+      }
+      h1{
+        margin-left:50px;
+      }
+      .line{
+        fill:none;
+        stroke:#94849B;
+        stroke-width:2px;
+      }
+     .fill text{
+        fill:none;
+      }
+     .fill.tick{
+        opacity:0;
+      }
+     .explain{
+       margin-left:300px;
+     }
+     li{
+       line-height:2em;
+     }
+    </style>
+    <h1>Wizard Penguin</h1>
+
+    <div class = "HWFrequency"><h3>1. Frequency of homework grades</h3></div>
+    <ul class = "explain">
+      <li>Chose Wizard's homework grades and quizes grades as my data</li>
+      <li>Calculated the frequency of each score</li>
+      <li>Saved data in csv files</li>
+      <li>Used d3 "rect" to create histograms</li>
+      <li>The first two charts show the frequency of each score of homework grades and quizes grades</li>
+      <li>Used d3 "line" to create line charts</li>
+      <li>The last two charts show the changes of homework grades and quizes grades</li>
+      </ul>
+    <div class = "QuizFrequency"><h3>2. Frequency of quizes grades</h3></div>
+    <div class = "HWLine"><h3>3. Change of homework grades</h3></div>
+    <div class = "QuizLine"><h3>4. Change of quizes grades</h3></div>
+    <div class = "explain">
+  </body>
+</html>
